@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>5-dars vazifasi</title>
+  </head>
+  <body>
+    <form action="#" method="get">
+      <label for="firstName">Ismingizni kiriting: </label>
+      <input type="text" placeholder="Ismingiz" id="firstName" />
+      <br />
+      <br />
+      <label for="lastName"> Familiyangizni kiriting:</label>
+      <input type="text" placeholder="Familiyangiz" id="lastName" />
+      <br />
+      <br />
+      <label for="email"> Emailingizni kiriting:</label>
+      <input type="email" placeholder="Emailingiz" id="email" />
+      <br />
+      <br />
+      <label for="phone"> Telefon raqamingiz</label>
+      <input
+        type="tel"
+        placeholder="Raqamingiz"
+        id="phone"
+        pattern="[0-9]{2}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
+      />
+      <br />
+      <br />
+      <label for="social status">Ijtimoiy holatingiz:</label>
+      <select id="social status" name="social status">
+        <option value="worker">Ishchi</option>
+        <option value="student">Talaba</option>
+        <option value="disciple">O'quvchi</option>
+        <option value="unemployed">Ishsiz</option>
+      </select>
+      <br />
+      <br />
+      <p>Jinsingiz</p>
+      <label for="Erkak">Erkak</label>
+      <input type="radio" id="Erkak" name="gender" />
+      <label for="Ayol">Ayol</label>
+      <input type="radio" id="Ayol" name="gender" />
+      <br />
+      <br />
+      <button type="reset">Tozalash</button>
+      <button type="submit">Jo'natish</button>
+    </form>
+  </body>
+</html>

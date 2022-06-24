@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="#" method="get">
+      <label for="firstName">Ismingizni kiriting:</label>
+      <input
+        type="text"
+        placeholder="Ismingiz"
+        id="firstName"
+        required
+        minlength="3"
+        maxlength="24"
+      />
+      <br />
+      <br />
+      <label for="lastName">Familiyangizni kiriting:</label>
+      <input type="text" placeholder="Familiyangiz" id="lastName" required />
+      <br />
+      <br />
+      <label for="email">Emailingizni kiriting:</label>
+      <input type="email" id="email" placeholder="Emailingiz" required />
+      <br />
+      <br />
+      <label for="phone">Telefon raqamingiz:</label>
+      <input
+        type="tel"
+        id="phone"
+        value="+998"
+        pattern="+[0-9]{3}-[0-9]{2}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
+      />
+      <br />
+      <br />
+      <label for="holat">Ijtiomiy holatingiz:</label>
+      <select id="holat" name="holat">
+        <option value="Ishchi">Ishchi</option>
+        <option value="Ishsiz">Ishsiz</option>
+        <option value="Talaba">Talaba</option>
+        <option value="Oquvchi">Oquvchi</option>
+      </select>
+      <br />
+      <br />
+      <p>jinsingiz?</p>
+      <label for="Erkak">Erkak</label>
+      <input type="radio" id="Erkak" name="family" />
+      <label for="Ayol">Ayol</label>
+      <input type="radio" id="Ayol" name="family" />
+      <br />
+      <br />
+      <button type="reset">Tozalash</button>
+      <button type="submit">Jo'natish</button>
+    </form>
+  </body>
+</html>
