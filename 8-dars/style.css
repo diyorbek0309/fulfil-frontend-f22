@@ -1,0 +1,68 @@
+#heading1 {
+  color: yellow;
+}
+
+h1 {
+  color: red !important;
+}
+
+/* important - muhim */
+
+.h1 {
+  color: green;
+}
+
+/* Inline Style > ID > class = attribut > teg */
+
+h2 {
+  color: blue;
+}
+
+/* h1 -  selector (tanlab oluvchi) */
+/* color - property (xossa) */
+/* red - value (qiymat) */
+/* Har bir xossani o'ziga mos qiymatlari bor. */
+/* Selector turlari: teg, class, attribut, id, universal  */
+
+/* h3 {
+  color: green;
+} */
+
+/* .heading3 {
+  color: green;
+  background-color: red; 
+} */
+
+/* background-color - orqa-fon rangi */
+
+/* input {
+  background-color: red;
+} */
+
+/* [type="text"] {
+  background-color: red;
+}
+
+[type="email"] {
+  background-color: green;
+}
+
+/* * {
+  background-color: red;
+  margin: 0;
+  padding: 0;
+} */
+
+/* h1 {
+  color: blue;
+}
+
+h1 {
+  color: green;
+} */
+
+input {
+  background-color: aqua;
+}
+
+
