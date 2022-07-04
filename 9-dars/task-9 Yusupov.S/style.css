@@ -1,0 +1,28 @@
+html {
+  height: 2000px;
+}
+
+.descendant p {
+  background-color: yellow;
+} 
+
+.child > p {
+  background-color: red;
+}
+
+.adjacent div + p {
+  background-color: blue;
+}
+
+.general div ~ p {
+  background-color: brown;
+}
+
+.combined_selectors li.selected {
+  background-color: red;
+}
+
+.combined_selectors input[type="text"] {
+  background-color: green;
+  width: 20rem;
+}

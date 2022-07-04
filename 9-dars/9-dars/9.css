@@ -1,0 +1,43 @@
+div p {
+  color: #ffff00;
+  background-color: rgb(128, 128, 128);
+}
+
+.pre {
+  color: #ffff;
+  background-color: #000;
+  text-align: center;
+  text-decoration: underline red 1px;
+  font-family: "Times New Roman";
+}
+
+b {
+  color: green;
+  font-size: 25px;
+}
+
+ul li {
+  color: #ff0000;
+}
+
+hr {
+  color: #ff4586;
+}
+
+button {
+  border: 1px rgb(123, 122, 122) solid;
+  border-radius: 5px;
+}
+
+.p2 p {
+  color: #0000ff;
+}
+
+.li {
+  color: #fff;
+  background-color: #000;
+}
+
+.adjecent div + p {
+  color: #0000ff;
+}
