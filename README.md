@@ -13,9 +13,9 @@ Frontend Course by Diyorbek Olimov
 
 ## CSS:
 1. Introduction. CSS Selectors, Comments and Cascading.
-2. Inheritance, Combinators and Combined Selectors in CSS.
+2. Inheritance, Combinators and Combined Selectors.
 3. Box model, margin collapsing, width, height, max-width, max-height, min-width and min-height.
-4. Display. text-align, float, text-decoration, pseudo-classes in CSS.
+4. Display. text-align, text-transform, text-decoration. Float and clear. Pseudo-classes.
 5. Position, z-index, overflow.
 6. Background. Styling images(gradient, colors). Styling forms. Units: percent, em, rem.
 7. VW and VH. About RWD. Media queries, breakpoints.
