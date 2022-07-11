@@ -1,0 +1,27 @@
+div .descendant p {
+  color: yellow;
+}
+
+.child > p {
+  color: red;
+}
+
+.adjacent div + p {
+  color: blue;
+}
+
+.general div ~ p {
+  color: rgb(255, 166, 0);
+}
+
+.combined_selectors li.selected {
+  color: red;
+}
+
+[type="email"] {
+  background-color: indigo;
+}
+
+[type="text"] {
+  background-color: green;
+}

@@ -1,0 +1,18 @@
+.box1 {
+  border: 5px dotted red;
+  background-color: rgb(114, 250, 239);
+  /*border-bottom: 5px dotted rgb(255, 0, 0);
+    border-top: 5px solid red;
+    border-left: 5px  solid rgb(138, 38, 38);
+    border-right: 5px solid red;*/
+  padding: 20px 30px;
+  /*padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 30px;
+    padding-left: 30px;*/
+  margin: 20px 30px 40px 50px;
+  /*margin-top: 20px;
+    margin-right: 30px;
+    margin-bottom: 40px;
+    margin-left: 50px;*/
+}
