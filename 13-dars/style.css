@@ -1,0 +1,59 @@
+/* html {
+  font-size: 20px;
+} */
+
+.box1 {
+  width: 900px;
+  height: 600px;
+  border: 4px solid green;
+  /* background-image: url("../assets/html5.png"); */
+  /* background-repeat: repeat; */
+  background-repeat: no-repeat;
+  /* background-repeat: repeat-x; */
+  /* background-repeat: repeat-y; */
+  /* background-size: cover; */
+  /* background-size: contain; */
+  /* background-size: 900px 600px; */
+  /* background-position: center center; */
+  /* background-position: left center; */
+  /* background-image: linear-gradient(45deg, blue, aqua, green); */
+  /* background-image: radial-gradient(blue, aqua, green); */
+  /* background-color: rgb(123, 153, 57); */
+  /* background-color: rgb(20, 20, 20); */
+  background-color: #f00;
+  /* ff - qizil, 00 - yashil, 00 - ko'k */
+  /* 
+  0-255 qiymat qabul qiladi
+    123 ulush qizil rang, 
+    153 ulush yashil rang,
+    57 ulush ko'k rang
+  */
+  /* font-size: 25px; */
+}
+
+.box2 {
+  /* width: 40%;
+  height: 50%; */
+  /* width: 20rem; */
+  /* 1rem = 16px */
+  /* height: 10rem; */
+  /* font-size: 20px; */
+  width: 20em;
+  height: 15em;
+  background-color: #0f0;
+}
+
+/* img {
+  border-radius: 50%;
+  opacity: 1;
+} */
+
+@media screen and (max-width: 600px) {
+  html {
+    font-size: 12px;
+  }
+  .box1 {
+    width: 400px;
+    height: 300px;
+  }
+}
