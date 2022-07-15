@@ -1,0 +1,57 @@
+html {
+  width: 2000px;
+  /* height: 1000px; */
+  background-color: rgb(46, 120, 170);
+}
+
+.head {
+  width: 1300px;
+  height: 45px;
+  position: fixed;
+  top: 0px;
+  background-color: rgb(235, 247, 129);
+  padding: 2px;
+  border: 3px solid rgb(0, 0, 0);
+  z-index: 3;
+  text-align: center;
+}
+
+ul li {
+  list-style-type: none;
+  width: 170px;
+  height: 25px;
+  padding: 8px 0px 5px 0px;
+  margin: 10px 0;
+  border: 2px solid black;
+  background-color: rgba(136, 245, 33, 0.938);
+  z-index: 3;
+  text-align: center;
+}
+
+ul {
+  position: fixed;
+  top: 60px;
+  left: -30px;
+}
+
+section img {
+  position: relative;
+  top: 100px;
+  left: 400px;
+  width: 500px;
+  height: 250px;
+}
+
+aside {
+  position: fixed;
+  width: 100px;
+  height: 250px;
+  padding: 15px;
+  left: 1180px;
+  border: 3px solid red;
+  z-index: 1;
+  scroll-behavior: auto;
+  top: 60px;
+  overflow: auto;
+  background-color: rgb(105, 226, 48);
+}
