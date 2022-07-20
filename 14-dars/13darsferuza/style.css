@@ -1,0 +1,100 @@
+.box {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+body {
+  background-color: rgb(101, 164, 240);
+  padding: 5px;
+}
+
+.box,
+ul li,
+.aside-box2,
+footer span {
+  background-color: rgb(187, 244, 108);
+}
+
+.box {
+  width: 100vw;
+  height: 15vh;
+  border: 2px solid #000;
+  text-align: center;
+  padding: 15px;
+  position: relative;
+}
+
+.aside-box1 {
+  float: left;
+  margin-left: 1vw;
+}
+
+ul li {
+  border: 2px solid #111;
+  text-align: center;
+  width: 10vw;
+  height: 4vh;
+  margin: 5px 10px 10px 10px;
+  padding: 15px;
+}
+li a {
+  color: #000;
+  text-decoration: none;
+}
+
+.img-box {
+  background-image: url("./assets/ofis.jpg");
+  width: 60vw;
+  height: 80vh;
+  background-repeat: no-repeat;
+  margin-top: 5px;
+  margin-left: 300px;
+}
+
+.aside-box2 {
+  width: 20vw;
+  height: 60vh;
+  border: solid #000;
+  position: absolute;
+  right: 5px;
+  margin-top: 10px;
+  padding: 20px;
+  text-align: center;
+}
+
+footer {
+  border: 2px solid #111;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+/* @media screen and (min-width: 320px) and (max-width: 480px) {
+  .img-box {
+    display: none;
+  }
+  .aside-box2 {
+    height: 80vh;
+  }
+
+  ul li {
+    width: 20vw;
+  }
+} */
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .img-box {
+    display: none;
+  }
+  .aside-box2 {
+    height: 70vh;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .img-box {
+    width: 40vw;
+    height: 80vh;
+  }
+}

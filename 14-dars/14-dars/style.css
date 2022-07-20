@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header,
+footer {
+  color: #fff;
+  background-color: gray;
+  padding: 2.5rem 1.25rem; /* 2.5rem = 2.5 * 16 = 40px */
+}
+
+aside {
+  float: left;
+}
+
+section {
+  padding: 2.5rem;
+}
+
+aside ul li {
+  width: 11.25rem;
+  height: 2.5rem;
+  color: #fff;
+  background-color: deepskyblue;
+  padding: 0.9375rem 0.625rem;
+  margin: 0.625rem 2.1875rem 0.625rem 0.625rem;
+}
+
+footer {
+  clear: left;
+}
+
+@media screen and (min-width: 360px) and (max-width: 480px) {
+  html {
+    font-size: 10px;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  /* header,
+  footer {
+    font-size: 1.1rem;
+    padding: 1.4rem 1rem 5rem 1rem;
+  }
+
+  section {
+    font-size: 1.3rem;
+    padding: 0.7rem;
+  }
+
+  aside ul li {
+    font-size: 1.2rem;
+    width: 8rem;
+    height: 3rem;
+    padding: 0.9rem 0.7rem;
+    margin: 0.7rem 1.2rem 0.7rem 0.7rem;
+  } */
+  html {
+    font-size: 12px;
+  }
+}
+
+/* @media screen and (min-width: 769px) and (max-width: 1024px) {
+  header,
+  footer {
+    font-size: 1.8rem;
+    color: #fff;
+    background-color: gray;
+    padding: 2rem 1.25rem 5rem 1rem;
+  }
+
+  section {
+    font-size: 1.2rem;
+    padding: 2.5rem;
+  }
+
+  aside ul li {
+    font-size: 1.3rem;
+    width: 11rem;
+    height: 3rem;
+    padding: 1rem 0.7rem;
+    margin: 0.9rem 3rem 0.9rem 0.9rem;
+  }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1280px) {
+  header,
+  footer {
+    font-size: 1.8rem;
+    color: #fff;
+    background-color: gray;
+    padding: 2.5rem 1.25rem 5rem 1rem;
+  }
+
+  section {
+    font-size: 1.6rem;
+    padding: 2.5rem;
+  }
+
+  aside ul li {
+    font-size: 1.5rem;
+    width: 15rem;
+    height: 4rem;
+    padding: 1.3rem 0.9rem;
+    margin: 0.9rem 3rem 0.9rem 0.9rem;
+  }
+}
+
+@media screen and (min-width: 1281px) and (max-width: 1440px) {
+  header,
+  footer {
+    font-size: 1.8rem;
+    color: #fff;
+    background-color: gray;
+    padding: 2.5rem 1.25rem 5rem 1rem;
+  }
+
+  section {
+    font-size: 1.8rem;
+    padding: 2.5rem;
+  }
+
+  aside ul li {
+    font-size: 1.5rem;
+    width: 15rem;
+    height: 4rem;
+    padding: 1.3rem 0.9rem;
+    margin: 0.9rem 3rem 0.9rem 0.9rem;
+  }
+}
+
+@media screen and (min-width: 1441px) {
+  header,
+  footer {
+    font-size: 1.8rem;
+    color: #fff;
+    background-color: gray;
+    padding: 2.5rem 1.25rem 5rem 1rem;
+  }
+
+  section {
+    font-size: 2rem;
+    padding: 2.2rem;
+  }
+
+  aside ul li {
+    font-size: 1.5rem;
+    width: 15rem;
+    height: 4rem;
+    padding: 1.3rem 0.9rem;
+    margin: 0.9rem 3rem 0.9rem 0.9rem;
+  }
+} */
