@@ -1,0 +1,32 @@
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: #f00;
+  /* transform: rotate(-45deg); */
+  /* transform: translate(50px, 0); */
+  /* transform: translateX(500px); */
+  /* transform: translateY(500px); */
+  /* musbat: o'ngga, pastga */
+  /* transform: scale(0.5); */
+  /* transform: scale(2, 0.5); */
+  /* transform: scaleX(0.5); */
+  /* transform: scaleY(0.5); */
+  /* transform: skew(60deg); */
+  /* transform: rotate3d(1, 1, 1, 45deg); */
+  /* transform: rotateX(45deg); */
+  /* transform: rotateY(45deg); */
+  /* transform: rotateZ(45deg); */
+  /* transform: translate3d(50px, 50px, 1000px); */
+  /* transform: scale3d(0.5, 0.5, 1); */
+  /* transition: width 2s, background-color 2s, height 2s; */
+  transition: all 2s;
+  /* transition-timing-function: ease-in; */
+  /* transition-timing-function: linear; */
+  /* transition-delay: 3s; */
+}
+
+.box:hover {
+  width: 600px;
+  background-color: green;
+  height: 400px;
+}
