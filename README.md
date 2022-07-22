@@ -20,7 +20,7 @@ Frontend Course by Diyorbek Olimov
 6. Background. Styling images(gradient, colors). Units: percent, em, rem.
 7. VW and VH. About RWD. Media queries, breakpoints.
 8. 2D, 3D transforms. Transitions. Shadow.
-9. Animations, fonts.
+9. Animations.
 10. Flexbox.
 11. Grid. Best practises. BEM.
 12. Practical work.
