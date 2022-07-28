@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      .main-box {
+        display: flex;
+      }
+
+      .item {
+        width: 22px;
+        height: 50px;
+        background-color: black;
+        margin: 40px 10px;
+      }
+
+      .for1 {
+        animation-name: protsess;
+        animation-delay: 0.1s;
+        animation-duration: 0.9s;
+        animation-iteration-count: infinite;
+        animation-direction: reverse;
+      }
+
+      .for2 {
+        animation-name: protsess;
+        animation-delay: 0.2s;
+        animation-duration: 0.9s;
+        animation-iteration-count: infinite;
+        animation-direction: reverse;
+      }
+
+      .for3 {
+        animation-name: protsess;
+        animation-delay: 0.4s;
+        animation-duration: 0.9s;
+        animation-iteration-count: infinite;
+        animation-direction: reverse;
+      }
+
+      @keyframes protsess {
+        0% {
+          transform: scaleY(1);
+        }
+
+        100% {
+          transform: scaleY(1.8);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main-box">
+      <div class="item for1"></div>
+      <div class="item for2"></div>
+      <div class="item for3"></div>
+    </div>
+  </body>
+</html>
