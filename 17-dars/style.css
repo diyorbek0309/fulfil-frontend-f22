@@ -1,0 +1,56 @@
+body {
+  font-family: sans-serif;
+}
+.flex-container {
+  display: flex;
+  padding: 20px;
+  background-color: #025955;
+  border-radius: 10px;
+  height: 500px;
+  /* flex-direction: row; */
+  /* flex-direction: row-reverse; */
+  /* flex-direction: column-reverse; */
+  /* flex-wrap: nowrap; */
+  /* flex-wrap: wrap; */
+  /* flex-wrap: wrap-reverse; */
+  /* flex-flow: row wrap; */
+  /* justify-content: flex-start; */
+  /* justify-content: flex-end; */
+  justify-content: center;
+  /* justify-content: space-between; */
+  /* justify-content: space-around; */
+  /* justify-content: space-evenly; */
+  /* align-items: stretch; */
+  /* align-items: flex-start; */
+  /* align-items: flex-end; */
+  align-items: center;
+  /* align-content: center; */
+  align-content: space-evenly;
+}
+.flex-item {
+  padding: 60px 15px;
+  background-color: #fde8cd;
+  font-weight: bold;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.flex-item.third {
+  order: -5;
+  flex-grow: 2;
+  /* width: 400px; */
+}
+
+.flex-item.fourth {
+  order: -4;
+  flex-shrink: 5;
+}
+
+/* .flex-item.first {
+  order: 1;
+} */
+
+.flex-item.second {
+  order: -3;
+  flex-grow: 1;
+}
