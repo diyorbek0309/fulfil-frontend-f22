@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator </title>
+  </head>
+  <link rel="stylesheet" href="./style.css">
+  <body>
+    <table border="1" class="flex-container"> 
+      <div class="container-first">
+      <form name="val" class="calculator">
+            <tr>
+              <td class="td1" colspan="4"> <input type="text" class="value" name="ans" /></td>
+            </tr>
+            <tr>
+              <td class="AC" colspan="2">AC</td>
+              <!-- <td colspan="2"></td> -->
+              <td class="item1"><span onclick="document.val.ans.value+='/'">/</span></td>
+              <td class="item1"><span onclick="document.val.ans.value+='*'">*</span></td>
+            </tr>
+            <tr>
+                <td><span onclick="document.val.ans.value+='7'">7</span></td>
+                <td><span onclick="document.val.ans.value+='8'">8</span></td>
+                <td><span onclick="document.val.ans.value+='9'">9</span></td>
+                <td class="item1"> <span onclick="document.val.ans.value+='+'">+</span></td>
+            </tr>
+            <tr>
+                <td><span onclick="document.val.ans.value+='4'">4</span></td>
+                <td><span onclick="document.val.ans.value+='5'">5</span></td>
+                <td><span onclick="document.val.ans.value+='6'">6</span></td>
+                <td class="item1"> <span onclick="document.val.ans.value+='-'">-</span></td>
+                
+            </tr>
+            <tr>
+                <td><span onclick="document.val.ans.value+='1'">1</span></td>
+                <td><span onclick="document.val.ans.value+='2'">2</span> </td>
+                <td><span onclick="document.val.ans.value+='3'">3</span></td>
+                <td class="eval1" rowspan="2"><span onclick="document.val.ans.value =eval(document.val.ans.value)">=</span></td>
+            </tr>
+            <tr>
+              <td colspan="2"> <span onclick="document.val.ans.value+='0'">0</span></td>
+              <td> <span onclick="document.val.ans.value+='.'">.</span></td>
+            </tr>
+        </table>
+        <br />
+        <br />
+        <br />
+      </form>
+    </div>
+  </body>
+</html>

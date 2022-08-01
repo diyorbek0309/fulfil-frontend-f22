@@ -1,0 +1,39 @@
+.flex-container {
+  display: flex;
+  width: 400px;
+  height: 300px;
+  align-items: center;
+  background-color: rgb(73, 71, 71);
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+}
+
+.img1 {
+  width: 30px;
+  height: 20px;
+}
+
+.value {
+  width: 300px;
+  height: 20px;
+}
+
+td {
+  color: white;
+  height: 35px;
+  padding: 5px 0px 5px 25px;
+}
+
+td:hover {
+  background-color: deepskyblue;
+}
+
+.td1 {
+  padding: 2px;
+}
+.td1:hover {
+  text-decoration: none;
+}
+.td2:hover {
+  background-color: red;
+}
