@@ -1,0 +1,47 @@
+.grid-container {
+  width: 95vw;
+  height: 100vh;
+  display: grid;
+  gap: 1.5vw;
+  background-color: #ffffff;
+  border-radius: 10px;
+  grid-template-areas:
+    "header header header header header"
+    "sidebar nav nav nav aside"
+    "sidebar main main main aside"
+    "sidebar main main main aside"
+    "sidebar main main main aside"
+    "sidebar main main main aside"
+    "footer footer footer footer footer";
+}
+
+.grid-container div {
+  background-color: aqua;
+  border: 0.2vw solid rgb(233, 40, 40);
+  border-radius: 1vw;
+  text-align: center;
+}
+
+.item1 {
+  grid-area: header;
+}
+
+.item2 {
+  grid-area: nav;
+}
+
+.item3 {
+  grid-area: main;
+}
+
+.item4 {
+  grid-area: aside;
+}
+
+.item5 {
+  grid-area: footer;
+}
+
+.item6 {
+  grid-area: sidebar;
+}
