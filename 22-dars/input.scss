@@ -1,0 +1,39 @@
+$red_color: #ff0000;
+$green_color: #00ff00;
+$blue_color: #16b154;
+// Global variables - global o'zgaruvchilar
+
+html {
+  $font_style: italic;
+  $green_color: lightgreen;
+  background-color: $red_color;
+  color: $green_color;
+  //   Local o'zgaruvchi
+  font-style: $font_style;
+}
+
+nav {
+  .logo {
+    font: {
+      size: 2rem;
+      weight: bold;
+      style: italic;
+      family: Arial, Helvetica, sans-serif;
+    }
+  }
+  .menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    li {
+      list-style: none;
+    }
+    li a {
+      color: $green_color;
+      text: {
+        decoration: none;
+        transform: uppercase;
+      }
+    }
+  }
+}

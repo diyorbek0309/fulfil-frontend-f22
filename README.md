@@ -48,10 +48,9 @@ Frontend Course by Diyorbek Olimov
 
 ### JavaScript Fundamentals:
 
-1. Introduction. Variables. Data types. Arithmetic operators.
-   Comparison, Equality and Ternary operators.
+1. Introduction. Variables. Data types. Arithmetic, Comparison and Equality operators.
 2. Functions. Objects and Arrays.
-3. Working with Booleans. If else and switch case. String.
+3. Working with Booleans. If else and switch case. Ternary operator. String.
 4. Loops: for, for of, for in, while and do while. Break and continue.
 5. JS Fundamentals practise.
 6. Working with Objects. Math and String.
