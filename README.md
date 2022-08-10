@@ -31,14 +31,14 @@ Frontend Course by Diyorbek Olimov
 ## SASS:
 1.	Introduction. SASS and SCSS. SASS installation. Selectors.
 2.	Properties, variables. Arithmetic operations. 
-3.	Lists, maps. Special functions. Comments.
-4.	Parent selector and interpolation. At(@) rule. 
-5.	Flow control. Practical work.
+3.	Flow control. Practical work.
 
 ## Practise 1:
 1. HTML, CSS practise (Section 1).
 2. HTML, CSS practise (Section 2).
-3. Competition 1.
+3. HTML, CSS practise (Section 3).
+4. HTML, CSS practise (Section 4).
+5. Competition 1.
 
 ## JavaScript:
 ### JavaScript Fundamentals:
