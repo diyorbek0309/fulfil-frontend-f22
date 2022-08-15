@@ -33,16 +33,15 @@ Frontend Course by Diyorbek Olimov
 
 ## SASS:
 
-1.	Introduction. SASS and SCSS. SASS installation. Selectors.
-2.	Properties, variables. Arithmetic operations. 
+1. Introduction. SASS and SCSS. SASS installation. Selectors.
+2. Properties, variables. Arithmetic operations.
 
 ## Practise 1:
 
 1. HTML, CSS practise (Section 1).
 2. HTML, CSS practise (Section 2).
 3. HTML, CSS practise (Section 3).
-4. HTML, CSS practise (Section 4).
-5. Competition 1.
+4. Competition 1.
 
 ## JavaScript:
 
@@ -64,21 +63,23 @@ Frontend Course by Diyorbek Olimov
 11. Practise working with DOM.
 12. Practise working with DOM.
 13. Practise working with DOM.
+14. Practise working with DOM.
 
 ### JavaScript Advanced:
 
-14. Spread operator and Rest Parameter. Getter and Setter.
-15. Try/Catch. Scopes. Let, var and const. this keyword.
-16. Synchronous and asynchronous JS. Callback. Promise. async/await.
-17. OOP Basics. Solving simple problems in JS.
+15. Spread operator and Rest Parameter. Getter and Setter.
+16. Try/Catch. Scopes. Let, var and const. this keyword.
+17. Synchronous and asynchronous JS. Callback. Promise. async/await.
+18. OOP Basics. Solving simple problems in JS.
 
 ## Practise 2:
 
 1. Setting up environment and folder structure for new project.
-2. Making HTML/CSS template of new project.
-3. Making dynamic parts of new project.
-4. Optimizing and Deploying new project to Netlify.
-5. Competition 2.
+2. Making HTML/CSS template of new project (Section 1).
+3. Making HTML/CSS template of new project (Section 2).
+4. Making dynamic parts of new project.
+5. Optimizing and Deploying new project to Netlify.
+6. Competition 2.
 
 ## React.js:
 
@@ -114,3 +115,4 @@ Frontend Course by Diyorbek Olimov
 8. Creating admin panel for landing page with Ant-design (Section 2).
 9. Creating admin panel for landing page with Ant-design (Section 3).
 10. Competition 3.
+11. Final Lesson.
