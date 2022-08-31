@@ -55,7 +55,7 @@ Frontend Course by Diyorbek Olimov
 6. Working with Objects. Math and String.
 7. Working with Arrays. Array methods.
 8. Practise with Math, String, Array and Objets.
-9. Factory and Constructor Functions. Primitive and Reference types. More about Functions.
+9. Primitive and Reference types. More about Functions.
 
 ### JavaScript DOM:
 
