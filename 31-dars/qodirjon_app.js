@@ -28,7 +28,6 @@ function maxNumberOfArray(arr) {
 let text1 = "Mening 4 ta kompyuterim va 2 ta mashinam bor";
 let text2 = "3 boshli ajdarho";
 
-const numbers = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
 const numbersWord = [
   "nol",
   "bir",
@@ -44,19 +43,21 @@ const numbersWord = [
 
 function numberToWord(text) {
   const arrText = text.split(" ");
+  console.log(arrText);
 
   for (let i = 0; i < arrText.length; i++) {
-    for (let j = 0; j < numbers.length; j++) {
-      if (arrText[i] == numbers[j]) {
+    for (let j = 0; j < 10; j++) {
+      if (arrText[i] == j) {
         arrText[i] = numbersWord[j];
       }
     }
   }
+  
   return arrText.join(" ");
 }
 
-let resultText = numberToWord(text1);
-// console.log(resultText)
+let resultText = numberToWord(text2);
+console.log(resultText)
 
 //! Task-3
 
