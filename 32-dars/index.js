@@ -27,6 +27,5 @@ let text = "Hello World!";
 // console.log(text.lastIndexOf("l"));
 // console.log(text.replace("l", "w"));
 // console.log(text.split("W"));
-console.log(text.slice(10, 6));
-console.log(text.substring(10, 6));
-
+// console.log(text.slice(-3));
+// console.log(text.substring(10, 6));
