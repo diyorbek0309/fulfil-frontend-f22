@@ -48,19 +48,19 @@ const fruits = ["Banana", "Orange", "Apple", "Mango"];
 //   return acc + cur;
 // }, 0);
 
-let numbers = [];
+// let numbers = [];
 
-for (let i = 1; i <= 100; i++) {
-  numbers.push(i);
-}
+// for (let i = 1; i <= 100; i++) {
+//   numbers.push(i);
+// }
 
-let filteredNumbers = numbers.filter(function (number) {
-    return number % 5 === 0;
-})
+// let filteredNumbers = numbers.filter(function (number) {
+//     return number % 5 === 0;
+// })
 
-let sum = filteredNumbers.reduceRight(function (acc, cur) {
-  return acc + cur;
-}, 0);
+// let sum = filteredNumbers.reduceRight(function (acc, cur) {
+//   return acc + cur;
+// }, 0);
 
 // let lower100 = numbers.filter(function (number) {
 //   return number > 100;
@@ -74,4 +74,10 @@ let sum = filteredNumbers.reduceRight(function (acc, cur) {
 //   return number > 100;
 // });
 
-console.log(sum);
+// console.log(sum);
+
+let numbers = [23, 43, 121, 324, 76];
+
+numbers.splice(3, 2, 111, 34, 87);
+
+// console.log(numbers); // [23, 43, 121, 111, 34, 87]
