@@ -59,8 +59,8 @@ Frontend Course by Diyorbek Olimov
 
 ### JavaScript DOM:
 
-10. What is DOM? Working with Selectors. Manipulating DOM elements. AddEventlistener.
-11. Practise working with DOM.
+10. What is DOM? Working with Selectors. Manipulating DOM elements.
+11. Events and  addEventlistener. Practise working with DOM.
 12. Practise working with DOM.
 13. Practise working with DOM.
 14. Practise working with DOM.
