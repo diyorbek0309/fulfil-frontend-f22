@@ -14,7 +14,9 @@
         list-style-type: none;
         background-color: rgb(221, 218, 218);
       }
-
+      .d-block {
+        display: block;
+      }
       .wrapper {
         width: 80%;
         margin: 1rem auto;
@@ -31,6 +33,7 @@
         background-color: #f2f2f2;
       }
       li {
+        display: none;
         margin: 2rem 0;
       }
       ul:hover {
@@ -104,43 +107,27 @@
     </div>
 
     <script>
-            let ul2 = document.getElementById("ul2");
-      let ul3 = document.getElementById("ul3");
-
-      let ul = document.getElementById("ul");
-
-      function myFunction() {
-        let x = document.querySelectorAll(".brand");
-        x.forEach((item) => { if (item.style.display === "block") {
-          item.style.display = "none";
-        } else {
-          item.style.display = "block";
-        }})
+      function myFunction(className) {
+        let x = document.querySelectorAll(className);
+        x.forEach((item) => {
+          // if (item.style.display === "block") {
+          //   item.style.display = "none";
+          // } else {
+          //   item.style.display = "block";
+          // }
+          item.classList.toggle("d-block");
+        });
       }
 
-      ul.addEventListener("click", myFunction);
-
-      function myFunction2() {
-        let x = document.querySelectorAll(".shop");
-        x.forEach((item) => { if (item.style.display === "block") {
-          item.style.display = "none";
-        } else {
-          item.style.display = "block";
-        }})
-      }
-
-      function myFunction3() {
-        let x = document.querySelectorAll(".help");
-        x.forEach((item) => { if (item.style.display === "block") {
-          item.style.display = "none";
-        } else {
-          item.style.display = "block";
-        }})
-      }
-
-
-      ul2.addEventListener("click", myFunction2);
-      ul3.addEventListener("click", myFunction3);
+      document.getElementById("ul").addEventListener("click", () => {
+        myFunction(".brand");
+      });
+      document.getElementById("ul2").addEventListener("click", () => {
+        myFunction(".shop");
+      });
+      document.getElementById("ul3").addEventListener("click", () => {
+        myFunction(".help");
+      });
     </script>
   </body>
 </html>
