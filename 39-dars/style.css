@@ -164,6 +164,42 @@
   display: none;
 }
 
-.btn-delete:hover { 
+.btn-delete:hover {
   background-color: #c51e1e;
+}
+
+#edit_modal {
+  display: none;
+  width: 300px;
+  padding: 2rem;
+  border: 2px solid #000;
+  margin: 0 auto;
+  border-radius: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #000;
+  z-index: 999;
+}
+
+#edit_modal input {
+  font-size: 1.2rem;
+  padding: 0.2rem;
+}
+
+#edit_modal button {
+  font-size: 1.2rem;
+  margin: 1rem 0;
+  padding: 0.5rem 1rem;
+}
+
+#overlay {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  top: 0;
+  z-index: 10;
+  display: none;
 }
