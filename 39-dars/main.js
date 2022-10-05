@@ -43,6 +43,8 @@ const addToDo = () => {
     document.querySelector(".empty").style.display = "none";
     document.querySelector(".btn-delete").style.display = "inline-block";
     input.value = "";
+
+    console.log(toDos);
   }
 };
 
