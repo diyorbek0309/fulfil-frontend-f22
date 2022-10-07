@@ -67,7 +67,7 @@ Frontend Course by Diyorbek Olimov
 
 ### JavaScript Advanced:
 
-15. Copying objects. Rest Parameter. Getter and Setter.
+15. Copying objects. Rest Parameter. Destructuring. Getter and Setter.
 16. Try/Catch. Scopes. Let, var and const. this keyword.
 17. Synchronous and asynchronous JS. Callback. Promise. async/await.
 18. OOP Basics. Solving simple problems in JS.
