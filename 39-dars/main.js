@@ -1,6 +1,35 @@
 let input = document.querySelector("input");
 let toDoAll = document.getElementsByClassName("toDoWrap")[0];
-let toDos = [];
+let toDos = JSON.parse(localStorage.getItem("toDos")) || [];
+
+const showToDo = () => {
+  if (toDos.length) {
+    for (let i = 0; i < toDos.length; i++) {
+      let div = document.createElement("div");
+      div.setAttribute("class", "todo");
+      div.id = toDos[i].id;
+
+      div.innerHTML = `
+    <h4>
+        ${toDos[i].title}
+    </h4>
+    <div class="amal">
+        <button class="edit" onclick="editToDo(${toDos[i].id})">EDIT</button>
+        <button class="complete" onclick="completeToDo(${toDos[i].id})">COMPLETE</button>
+        <button class="delete" onclick="deleteToDo(${toDos[i].id})">DELETE</button>
+        <h5 class="added">Inserted: ${toDos[i].date}</h5>
+    </div>
+  `;
+
+      toDoAll.append(div);
+    }
+
+    document.querySelector(".empty").style.display = "none";
+    document.querySelector(".btn-delete").style.display = "inline-block";
+  }
+};
+
+showToDo();
 
 const addToDo = () => {
   if (input.value.trim() !== "") {
@@ -21,6 +50,7 @@ const addToDo = () => {
       }.${year} ${hour}:${minute}`,
     };
     toDos.push(toDo);
+    localStorage.setItem("toDos", JSON.stringify(toDos));
     div.id = toDo.id;
 
     div.innerHTML = `
@@ -43,8 +73,6 @@ const addToDo = () => {
     document.querySelector(".empty").style.display = "none";
     document.querySelector(".btn-delete").style.display = "inline-block";
     input.value = "";
-
-    console.log(toDos);
   }
 };
 
