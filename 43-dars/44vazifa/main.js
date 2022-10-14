@@ -32,19 +32,22 @@ class Rectangle {
 
 class Circle {
   constructor(num) {
-    this.num = num;
+    this.radius = num;
   }
+
   getArea() {
-    return 3.14 * this.num ** 2;
+    return Math.PI * this.radius ** 2;
   }
+
   getPerimeter() {
-    return 3.14 * this.num * 2;
+    return Math.PI * this.radius * 2;
   }
 }
+
 let circy = new Circle(11);
 console.log(circy.getPerimeter());
 console.log(circy.getArea());
 
-let q = new Circle(4.44);
-console.log(q.getArea());
-console.log(q.getPerimeter());
+// let q = new Circle(4.44);
+// console.log(q.getArea());
+// console.log(q.getPerimeter());
