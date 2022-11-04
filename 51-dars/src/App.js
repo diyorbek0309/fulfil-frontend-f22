@@ -1,15 +1,24 @@
 // import { Component } from "react";
 import "./App.css";
 // import Button from "./Button";
-import { Button, Input } from "./Button";
+import { Input } from "./Button";
+import Home from "./Home";
 
 function App() {
+  // const logger = () => {
+  //   alert("Logger");
+  // };
+
   return (
     <div className="App">
       <h1>Hello World!</h1>
       <Input />
-      <Button />
-      {/* <button>Button</button> */}
+      {/* <Button text="Click" logger={logger} /> */}
+      {/* props = {text: "Click", logger: f logger() } */}
+      {/* <Button text="Call" logger={logger} /> */}
+      {/* <Button>Click</Button>
+      <Button>Call</Button> */}
+      <Home text1="Click me" text2="Call" />
     </div>
   );
 }
@@ -30,3 +39,5 @@ export default App;
 
 // Component - funksiya
 // 2 turi bor: class based va functional
+// React data flow - ma'lumotlar oqimi
+// devDependency
