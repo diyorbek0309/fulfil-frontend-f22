@@ -1,7 +1,7 @@
 // import { Component } from "react";
 import "./App.css";
 // import Button from "./Button";
-import { Input } from "./Button";
+import Input from "./Input";
 import Home from "./Home";
 
 function App() {
@@ -9,10 +9,14 @@ function App() {
   //   alert("Logger");
   // };
 
+  const clickHandler = (name) => {
+    console.log(name);
+  };
+
   return (
     <div className="App">
       <h1>Hello World!</h1>
-      <Input />
+      <Input clickHandler={clickHandler} />
       {/* <Button text="Click" logger={logger} /> */}
       {/* props = {text: "Click", logger: f logger() } */}
       {/* <Button text="Call" logger={logger} /> */}

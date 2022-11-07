@@ -1,6 +1,6 @@
 import classes from "./styles/Home.module.css";
 
-const Button = (props) => {
+const Button = ({ bgColor, children, clickHandler, id }) => {
   // props.logger();
   // console.log(props);
   // const btnStyle = {
@@ -8,7 +8,7 @@ const Button = (props) => {
   //   backgroundColor: "#f00",
   // };
 
-  console.log(classes);
+  // console.log(classes);
 
   return (
     // <button style={{ color: "#fff", backgroundColor: "#f00" }}>
@@ -16,19 +16,20 @@ const Button = (props) => {
     // </button>
     // <button style={btnStyle}>{props.children}</button>
     <button
-      style={{ backgroundColor: props.bgColor }}
+      style={{ backgroundColor: bgColor }}
       className={`${classes.btnStyle} ${classes.borderless}`}
+      onClick={() => clickHandler(id)}
     >
-      {props.children}
+      {children}
     </button>
   );
 };
 
-const Input = () => {
-  return <input type="text" className={classes.input} />;
-};
+// const Input = () => {
+//   return <input type="text" className={classes.input} />;
+// };
 
-export { Button, Input };
+export { Button };
 // export default Button;
 
 // Exportlarni turlari: default, named (nomli)
