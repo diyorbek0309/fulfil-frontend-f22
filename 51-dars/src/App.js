@@ -1,28 +1,30 @@
 // import { Component } from "react";
 import "./App.css";
 // import Button from "./Button";
-import Input from "./Input";
-import Home from "./Home";
+// import Input from "./Input";
+// import Home from "./Home";
+import Test from "./Test";
 
 function App() {
   // const logger = () => {
   //   alert("Logger");
   // };
 
-  const clickHandler = (name) => {
-    console.log(name);
-  };
+  // const clickHandler = (name) => {
+  //   console.log(name);
+  // };
 
   return (
     <div className="App">
-      <h1>Hello World!</h1>
-      <Input clickHandler={clickHandler} />
+      {/* <h1>Hello World!</h1> */}
+      {/* <Input clickHandler={clickHandler} /> */}
       {/* <Button text="Click" logger={logger} /> */}
       {/* props = {text: "Click", logger: f logger() } */}
       {/* <Button text="Call" logger={logger} /> */}
       {/* <Button>Click</Button>
       <Button>Call</Button> */}
-      <Home text1="Click me" text2="Call" />
+      {/* <Home text1="Click me" text2="Call" /> */}
+      <Test />
     </div>
   );
 }
