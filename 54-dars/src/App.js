@@ -1,30 +1,18 @@
-import { useState } from "react";
+import { Routes, Route } from "react-router-dom";
 import "./App.css";
+import { routes } from "./routes";
 
 function App() {
-  let [count, setCount] = useState(0);
-
-  const increase = () => {
-    if (count === 10) {
-      alert("Endi oshirolmaysiz!");
-    } else {
-      setCount(++count);
-    }
-  };
-
-  const decrease = () => {
-    if (count === -10) {
-      alert("Endi kamaytirolmaysiz!");
-    } else {
-      setCount(--count);
-    }
-  };
-
   return (
     <div className="App">
-      <h1>{count}</h1>
-      <button onClick={increase}>Increase</button>
-      <button onClick={decrease}>Decrease</button>
+      <Routes>
+        {routes.map((route) => (
+          <Route path={route.path} element={route.element} />
+        ))}
+        
+        {/* <Route path="name/1" element={<Azizbek />} />
+        <Route path="name/2" element={<Diyorbek />} /> */}
+      </Routes>
     </div>
   );
 }
