@@ -1,3 +1,55 @@
 .App {
   text-align: center;
 }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  background-color: #222;
+  border: #000 solid 5px;
+  display: flex;
+  flex-flow: row wrap;
+  width: 500px;
+}
+
+.item {
+  width: 25%;
+  font-size: 2rem;
+  padding: 1rem;
+  background-color: darkslategrey;
+  border: #000 solid 0.1px;
+  text-align: center;
+  color: aliceblue;
+}
+
+.top {
+  width: 100%;
+  background-color: #222;
+  text-align: right;
+}
+
+.button-ac {
+  background-color: maroon;
+}
+
+.button-zero {
+  width: 50%;
+}
+
+.button-ra {
+  background-color: lightslategrey;
+  transform: scaleY(2);
+  width: 122px;
+}
+.test {
+  transform: translateY(50%);
+}
+.for-hover:hover {
+  background-color: rgb(52, 46, 23);
+  cursor: pointer;
+  transform: scale(1.09);
+  transition: all 0.5s;
+}

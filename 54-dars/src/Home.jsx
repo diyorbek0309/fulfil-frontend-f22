@@ -15,6 +15,8 @@ const Home = () => {
         </li>
       </ul>
       <Link to="/counter">Counter</Link>
+      <br />
+      <Link to="/calculator">Calculator</Link>
     </div>
   );
 };
