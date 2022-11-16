@@ -17,6 +17,8 @@ const Home = () => {
       <Link to="/counter">Counter</Link>
       <br />
       <Link to="/calculator">Calculator</Link>
+      <br />
+      <Link to="/posts">Posts</Link>
     </div>
   );
 };
