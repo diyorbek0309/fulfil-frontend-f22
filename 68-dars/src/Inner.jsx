@@ -1,7 +1,7 @@
 import { useSelector } from "react-redux";
 
 const Inner = () => {
-  const isLight = useSelector((state) => state.modeReducer.isLight);
+  const { isLight } = useSelector((state) => state.modeReducer);
 
   const pageStyle = {
     height: 620,
