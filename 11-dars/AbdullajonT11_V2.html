@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TaskWithPosition</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Times New Roman", Times, serif;
+      }
+
+      header,
+      footer {
+        color: #fff;
+        background-color: gray;
+        height: 130px;
+        padding: 40px 20px;
+      }
+
+      section {
+        padding: 40px;
+      }
+
+      .menu {
+        width: 180px;
+        height: 150px;
+        color: #fff;
+        margin: 10px;
+        padding-top: 20px;
+      }
+      ul li {
+        margin: 10px;
+        background-color: deepskyblue;
+        padding: 8px;
+      }
+
+      .content {
+        position: relative;
+      }
+
+      .menu {
+        position: absolute;
+      }
+
+      section {
+        margin-left: 180px;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <header><h2>Chania</h2></header>
+      <div class="content">
+        <aside>
+          <div class="menu">
+            <ul>
+              <li>The Fligt</li>
+              <li>The City</li>
+              <li>The Island</li>
+              <li>The Food</li>
+            </ul>
+          </div>
+        </aside>
+        <section>
+          <div class="sec">
+            <h1>The City</h1>
+            <br />
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse
+              consequatur maiores modi, quod doloribus voluptatem, omnis
+              corporis perferendis laborum, iusto explicabo. Eveniet, aliquid
+              est non doloribus quasi nisi.
+            </p>
+            <br />
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente
+              a modi rerum non cupiditate?
+            </p>
+          </div>
+        </section>
+      </div>
+      <footer>Footer Text</footer>
+    </main>
+  </body>
+</html>

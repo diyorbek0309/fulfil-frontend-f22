@@ -1,0 +1,46 @@
+.box1 {
+  margin: 50px 30px;
+  padding: 60px 20px;
+  border: 2px solid black;
+  text-align: center;
+  background-color: grey;
+}
+
+img {
+  width: 150px;
+}
+
+div {
+  display: block;
+  float: left;
+}
+
+h3 {
+  margin: 20px;
+  padding: 20px;
+  background-color: skyblue;
+  width: 200px;
+  height: 10px;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+a:hover {
+  --c: red;
+  /* the color */
+
+  color: #0000;
+  background: linear-gradient(90deg, #fff 50%, var(--c) 0)
+      calc(100% - var(--_p, 10%)) / 200%,
+    linear-gradient(var(--c) 0 0) 0% 100% / var(--_p, 10%) no-repeat,
+    var(--_c, #0000);
+  -webkit-background-clip: text, padding-box, padding-box;
+  background-clip: text, padding-box, padding-box;
+  transition: 0s, color 0.5s, background-color 0.5s;
+}
+
+a:visited {
+  background-color: blue;
+}

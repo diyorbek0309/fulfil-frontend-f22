@@ -1,0 +1,37 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.calculator form {
+    display: inline-block;
+    border: 2px solid #ccc;
+    padding: 5px;
+}
+.calculator button {
+    width: 40px;
+    height: 40px;
+}
+.calculator input {
+    width: 190px;
+    padding: 5px 10px;
+}
+.table {
+    display: inline-block;
+    background-color: #ccc;
+    margin-top: 50px;
+}
+.table h3 {
+    display: inline-block;
+    width: 120px;
+    height: 20px;
+    justify-content: flex-start;
+}
+.class-1 {
+    background-color: blue;
+}
+.class-2 {
+    background-color: bisque;
+}
+.class-3 {
+    background-color: yellow;
+}

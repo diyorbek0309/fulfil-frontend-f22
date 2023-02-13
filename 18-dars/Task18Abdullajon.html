@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task18Abdullajon</title>
+    <style>
+      .container {
+        display: grid;
+        grid-template-columns: 20% 58% 20%;
+        grid-template-rows: 3rem 20rem 3rem;
+        gap: 15px;
+        padding: 10px;
+        text-align: center;
+        border-radius: 5px;
+      }
+
+      header {
+        background-color: aqua;
+        grid-column: 1/4;
+      }
+      .sidebar {
+        background-color: chartreuse;
+        grid-row: 2/4;
+      }
+      .navbar {
+        background-color: brown;
+        grid-row: 2/3;
+        height: 30px;
+      }
+      .ads {
+        background-color: cornflowerblue;
+        grid-row: 2/4;
+      }
+      main {
+        background-color: blue;
+        position: relative;
+        bottom: 290px;
+        height: 337px;
+      }
+      footer {
+        background-color: darkgoldenrod;
+        grid-column: 1/4;
+        height: 3rem;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <header>header</header>
+      <div class="sidebar">sidebar</div>
+      <div class="navbar">navigaion</div>
+      <div class="ads">ads</div>
+      <main>main</main>
+      <footer>footer</footer>
+    </div>
+  </body>
+</html>

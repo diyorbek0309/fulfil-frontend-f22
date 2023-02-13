@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>task15Abdullajon</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      .container {
+        width: 90%;
+        height: 35rem;
+        margin: auto;
+        background-color: darkgray;
+        border-radius: 10px;
+        margin-top: 15rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .parent {
+        width: 55%;
+        height: 29%;
+        background-color: rgba(73, 73, 187, 0.162);
+        /* background-image: linear-gradient(lightblue, #222); */
+        border-radius: 10px;
+        display: flex;
+      }
+      .item {
+        width: 20rem;
+        height: 161px;
+        border-radius: 10px;
+        text-align: center;
+        padding: 5rem 0;
+        color: white;
+        display: inline-block;
+        transition: all 0.5s;
+        transition-timing-function: linear;
+      }
+
+      .item:hover {
+        background-color: floralwhite;
+        color: dimgrey;
+        transform: scale(1.05);
+        font-size: 20px;
+        cursor: pointer;
+      }
+
+      @media (max-width: 500px) {
+        .container {
+          height: 50rem;
+        }
+        .item {
+          width: 10rem;
+        }
+        .parent {
+          flex-direction: column;
+          width: 55%;
+          height: 60%;
+        }
+        .item:hover {
+          background-color: floralwhite;
+          color: dimgrey;
+          width: 11rem;
+          height: 161px;
+          font-size: 20px;
+          cursor: pointer;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="parent">
+        <div class="item">Xona buyurtirish</div>
+        <div class="item">Ro'yxtdan o'tish</div>
+        <div class="item">Buyurtirish shartlari</div>
+      </div>
+    </div>
+  </body>
+</html>

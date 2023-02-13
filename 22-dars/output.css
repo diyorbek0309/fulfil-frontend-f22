@@ -1,0 +1,27 @@
+html {
+  background-color: #ff0000;
+  color: lightgreen;
+  font-style: italic;
+}
+
+nav .logo {
+  font-size: 2rem;
+  font-weight: bold;
+  font-style: italic;
+  font-family: Arial, Helvetica, sans-serif;
+}
+nav .menu {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+nav .menu li {
+  list-style: none;
+}
+nav .menu li a {
+  color: #00ff00;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+/*# sourceMappingURL=output.css.map */

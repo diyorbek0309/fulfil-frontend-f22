@@ -1,0 +1,60 @@
+header {
+  background-color: blue;
+  width: 100vw;
+  height: 10vh;
+  padding: 40px 20px;
+  border-bottom: 2px solid red;
+}
+
+aside ul li {
+  width: 20vw;
+  height: 10vh;
+  color: beige;
+  text-align: center;
+  background-color: red;
+  padding: 10px;
+  margin: 10px;
+}
+
+aside {
+  float: left;
+}
+
+section p {
+  display: block;
+  text-align: center;
+  margin-left: 30vw;
+}
+
+footer {
+  width: 100vw;
+  height: 20vh;
+  margin-top: 150px;
+  background-color: green;
+  border-top: 2px solid red;
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  footer {
+    margin-top: 50px;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  footer {
+    margin-top: 80px;
+  }
+  aside ul {
+    margin: 0;
+    padding: 0;
+  }
+  section h1 {
+    margin-bottom: 0;
+  }
+  section p {
+    margin-top: 0;
+  }
+  aside {
+    padding-top: 10px;
+  }
+}

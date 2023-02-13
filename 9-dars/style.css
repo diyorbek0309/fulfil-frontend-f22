@@ -1,0 +1,67 @@
+html {
+  height: 2000px;
+}
+
+/* Inheritance - merosxo'rlik */
+
+div {
+  color: red;
+  background-color: yellow;
+}
+
+/* div p {
+  color: blue;
+} */
+
+/* Avlod selektor belgisi - " " (bo'sh joy) */
+
+.wrap > p {
+  color: blue;
+}
+
+.wrap > span i {
+  color: green;
+}
+
+/* Farzand selektor belgisi - " > " (katta) */
+
+.adjacent div + p {
+  background-color: aqua;
+}
+
+/* Adjacent sibling selector - " + " belgisi */
+
+.general div ~ p {
+  background-color: pink;
+}
+
+/* General sibling selector - " ~ " belgisi */
+
+.text-red {
+  color: red;
+}
+
+.text-blue {
+  color: blue;
+}
+
+.text-bold {
+  font-weight: bold;
+}
+
+/* .active {
+  background-color: blue;
+} */
+
+/* .combined li#link {
+  background-color: blue;
+} */
+
+.combined li.active {
+  background-color: blue;
+}
+
+h2, p, li.active {
+  font-style: italic;
+}
+

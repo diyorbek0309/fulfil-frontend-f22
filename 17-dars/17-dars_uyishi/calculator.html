@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator </title>
+  </head>
+  <link rel="stylesheet" href="./calculator.css">
+  <body>
+    <table border="1" class="flex-container"> 
+      <div class="container-first">
+      <form name="val" class="calculator">
+      </tr> 
+          <!-- <tr>
+                <th ></th>
+                <th >____</th>
+                <th >____</th>
+                <th >____</th>
+                <th ></th>   
+                <th>____</th> 
+                <th>____</th>
+            </tr> -->
+
+            <tr>
+              <td class="td1" colspan="4"> <input type="text" class="value" name="ans" /></td>
+              <td class="td1"><button type="reset"><img class="img1" src="./photo_2022-06-29_17-50-51.jpg" alt="clear_icon" ></button></td>
+            </tr>
+            <tr>
+                 <!-- <td rowspan="4"></td>  -->
+                <td><span onclick="document.val.ans.value+='7'">7</span></td>
+                <td><span onclick="document.val.ans.value+='8'">8</span></td>
+                <td><span onclick="document.val.ans.value+='9'">9</span></td>
+                 <!-- <td rowspan="4"></td>   -->
+                <td> <span onclick="document.val.ans.value+='+'">+</span></td>
+                <td class="td2"><span onclick="document.val.ans.value+='C'">C</span></td>
+            </tr>
+            <tr>
+                <!-- <td rowspan="4"></td> -->
+                <td><span onclick="document.val.ans.value+='4'">4</span></td>
+                <td><span onclick="document.val.ans.value+='5'">5</span></td>
+                <td><span onclick="document.val.ans.value+='6'">6</span></td>
+                <!-- <td rowspan="4"></td>  -->
+                <td> <span onclick="document.val.ans.value+='-'">-</span></td>
+                <td class="td2"><span onclick="document.val.ans.value+='CE'">Ce</span></td>
+            </tr>
+            <tr>
+                <!-- <td rowspan="4"></td> -->
+                <td><span onclick="document.val.ans.value+='1'">1</span></td>
+                <td><span onclick="document.val.ans.value+='2'">2</span> </td>
+                <td><span onclick="document.val.ans.value+='3'">3</span></td>
+                <!-- <td rowspan="4"></td> -->
+                <td> <span onclick="document.val.ans.value+='/'">/</span></td>
+                <td rowspan="2"><span onclick="document.val.ans.value =eval(document.val.ans.value)">=</span></td>
+            </tr>
+            <tr>
+              <!-- <td rowspan="4"></td> -->
+              <td> <span onclick="document.val.ans.value+='0'">0</span></td>
+              <td> <span onclick="document.val.ans.value+='00'">00</span></td>
+              <td> <span onclick="document.val.ans.value+='.'">.</span></td>
+              <!-- <td rowspan="4"></td> -->
+              <td> <span onclick="document.val.ans.value+='*'">*</span></td>
+              <!-- <td rowspan="2"><span onclick="document.val.ans.value =eval(document.val.ans.value)">=</span></td> -->
+            </tr>
+        </table>
+        <br />
+        <br />
+        <br />
+
+      </form>
+    </div>
+  </body>
+</html>

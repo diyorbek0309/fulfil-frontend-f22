@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body  >
+    <h1 style="text-align:center ;">Xizmat: Pasportni ID kartaga almashtirish uchun ariza yuborish</h1>
+    <form action="#" method="get">
+        <label for="jshshr">JSHSHIR:</label><br>
+        <input type="text" id="jshshr" size="50" required>
+        <br/>
+        <label for="fullname">F.I.O.:</label><br>
+        <input type="text" id="fullname" size="50" required>
+        <br/>
+        <br/>
+        So'ralayotgan karta turi<i style="color:red ;">*</i> <br>
+        <input type="radio" id="karta" name="id" required>
+        <label for="karta">O'zbekiston Fuqarosi ID kartasi</label><br>
+        <input type="radio" id="fuqaro" name="id" required>
+        <label for="fuqaro">Fuqaroligi bo'lmagan shaxs ID kartasi</label>
+        <br/>
+        <br/>
+        ID karta olish sababi<i style="color:red ;">*</i> <br>
+        <input type="radio" id="1" name="sabab" required>
+        <label for="1">Pasport yoki ID kartani almashtirish</label>
+        <br/>
+        <input type="radio" id="2" name="sabab">
+        <label for="2">O‘zbekiston fuqarosi hujjatini yaroqsiz holga kelishi (fuqaro)</label>
+        <br/>
+        <input type="radio" id="3" name="sabab">
+        <label for="3">O‘zbekiston fuqarosining birinchi marotaba murojаat qilishi</label>
+        <br/>
+        <input type="radio" id="4" name="sabab">
+        <label for="4"> Fuqaroligi bo‘lmagan shaxs hujjatini almashtirish</label>
+        <br/>
+        <input type="radio" id="5" name="sabab">
+        <label for="5"> Fuqaroligi bo‘lmagan shaxs hujjatini yaroqsiz holga kelishi (fuqaro)</label>
+        <br/>
+        <input type="radio" id="6" name="sabab">
+        <label for="6">Fuqaroligi bo‘lmagan shaxs birinchi marotaba murojaat qilishi</label>
+        <br>
+        <input type="radio" id="7" name="sabab">
+        <label for="7">Fuqaroligi bo‘lmagan shaxs hujjati ma’lumotlarida xatolik topilganligi</label>
+        <br/>
+        <br/>
+        <label for="datemax">Ma'lumotlarni yig'ish punktiga kelish sanasi</label><br>
+        <input type="date" id="datemax"  max="2025-12-31" required > 
+        <br/>
+        <br/>
+        <label for="time">Ma'lumotlarni yig'ish punktiga tashrif vaqti</label><br>
+        <select id="time" name="time"   required >
+            <option value="9da">09:00</option>
+            <option value="10da">10:00</option>
+            <option value="11da">11:00</option>
+            <option value="12da">12:00</option>
+            <option value="2da">14:00</option>
+            <option value="3da">15:00</option>
+            <option value="4da">16:00</option>
+            <option value="5da">17:00</option>
+        </select>
+        <br/>
+        <br/>
+        <label for="region">Tashrif buyuradigan hudud</label><br>
+        <select id="region" name="region"  required  >
+            <option value="andijon">Andijon</option>
+            <option value="buxoro">Buxoro</option>
+            <option value="jizzax">Jizzax</option>
+            <option value="qashqadaryo">Qashqadaryo</option>
+            <option value="navoiy">Navoiy</option>
+            <option value="namangan">Namangan</option>
+            <option value="samarqand">Surxandaryo</option>
+            <option value="sirdaryo">Sirdaryo</option>
+            <option value="toshkent_shahri">Toshkent shahri</option>
+            <option value="toshkent_viloyati">Toshkent viloyati</option>
+            <option value="fargona">Farg'ona</option>
+            <option value="xorazm">Xorazm</option>
+            <option value="qoraqalpoq">Qoraqalpog'iston Respublikasi</option>
+        </select>
+        <br/>
+        <br/>
+        <button type="reset" >Tozalash</button>
+        <button type="submit">Jo'natish</button>
+    </form>
+    
+</body>
+</html>

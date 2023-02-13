@@ -1,0 +1,173 @@
+.fixed1 {
+  width: 1500px;
+  height: 45px;
+  position: fixed;
+  background-color: rgb(235, 247, 129);
+  padding: 2px;
+  border: 3px solid red;
+  z-index: 2;
+}
+
+html {
+  width: 2000px;
+}
+
+.html1 {
+  position: absolute;
+  width: 50px;
+  height: 30px;
+  top: -5px;
+  left: 10px;
+  z-index: 3;
+  color: solid black;
+}
+.html1:hover {
+  margin: 2px;
+  color: red;
+}
+
+/* mana shuni togirlolmadim ustoz */
+
+/* .html1:hover {
+    margin: 2px;
+    background-color: grey;
+} */
+
+.css1 {
+  position: absolute;
+  top: -5px;
+  left: 70px;
+  width: 50px;
+  height: 30px;
+  z-index: 3;
+  color: solid black;
+}
+
+.css1:hover {
+  margin: 2px;
+  color: red;
+}
+
+.java1 {
+  position: absolute;
+  top: -5px;
+  left: 120px;
+  width: 50px;
+  height: 30px;
+  z-index: 3;
+  color: solid black;
+}
+
+.java1:hover {
+  margin: 2px;
+  color: red;
+}
+
+.python1 {
+  position: absolute;
+  top: -5px;
+  left: 225px;
+  width: 50px;
+  height: 30px;
+  z-index: 3;
+  color: solid black;
+}
+
+.python1:hover {
+  margin: 2px;
+  color: red;
+}
+
+.php1 {
+  position: absolute;
+  top: -5px;
+  left: 300px;
+  width: 50px;
+  height: 30px;
+  z-index: 3;
+  color: solid black;
+}
+
+.php1:hover {
+  margin: 2px;
+  color: red;
+}
+
+form {
+  position: absolute;
+  top: 5px;
+  right: 300px;
+  box-sizing: border-box;
+}
+
+form.example input[type="text"] {
+  max-width: 80%;
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  background: #f1f1f1;
+}
+
+form.example button {
+  max-width: 60%;
+  float: left;
+  padding: 10px;
+  background: #2196f3;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+
+  cursor: pointer;
+}
+
+form.example button:hover {
+  background: #0b7dda;
+}
+
+form.example::after {
+  height: 30px;
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.sticky-box {
+  position: sticky;
+  top: 60px;
+  left: 0px;
+  width: 250px;
+  height: 400px;
+  padding: 50px;
+  border: 3px solid red;
+  z-index: 1;
+  scroll-behavior: auto;
+  overflow: scroll;
+  background-color: grey;
+}
+
+.high-box {
+  position: relative;
+  padding: 50px;
+  top: 200px;
+  left: 350px;
+  width: 900px;
+  height: 700px;
+}
+
+.sticky-box p:hover {
+  margin: 2px;
+  color: red;
+}
+
+.footer {
+  position: fixed;
+  top: 550px;
+  right: 50px;
+  z-index: 1;
+  width: 100px;
+  border: 5px double grey;
+  text-shadow: 1px #2196f3;
+  text-align: center;
+}

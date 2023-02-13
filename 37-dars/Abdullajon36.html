@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        text-decoration: none;
+        list-style-type: none;
+        background-color: rgb(221, 218, 218);
+      }
+      .d-block {
+        display: block;
+      }
+      .wrapper {
+        width: 80%;
+        margin: 1rem auto;
+      }
+
+      ul {
+        width: 80%;
+      }
+      ul.li {
+        width: 80%;
+        padding: 1rem;
+        text-align: left;
+        border-radius: 5px;
+        background-color: #f2f2f2;
+      }
+      li {
+        display: none;
+        margin: 2rem 0;
+      }
+      ul:hover {
+        cursor: pointer;
+      }
+
+      .child_wrap:after {
+        position: absolute;
+        content: "\25BD";
+        color: #222;
+        right: 2rem;
+        top: 0.9rem;
+      }
+
+      .child_wrap,
+      ul,
+      li,
+      a {
+        background-color: #fff;
+      }
+      .child_wrap {
+        border-radius: 5px;
+        padding: 1rem;
+        margin: 1rem;
+        position: relative;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="child_wrap">
+        <ul id="ul">
+          Бренды
+          <li class="brand"><a href="#">Test</a></li>
+          <li class="brand"><a href="#">Test</a></li>
+          <li class="brand"><a href="#">Test</a></li>
+          <li class="brand"><a href="#">Test</a></li>
+          <li class="brand"><a href="#">Test</a></li>
+          <li class="brand"><a href="#">Test</a></li>
+          <li class="brand"><a href="#">Test</a></li>
+          <li class="brand"><a href="#">Test</a></li>
+        </ul>
+      </div>
+
+      <div class="child_wrap">
+        <ul id="ul2">
+          Магазин
+          <li class="shop"><a href="#">Test</a></li>
+          <li class="shop"><a href="#">Test</a></li>
+          <li class="shop"><a href="#">Test</a></li>
+          <li class="shop"><a href="#">Test</a></li>
+          <li class="shop"><a href="#">Test</a></li>
+          <li class="shop"><a href="#">Test</a></li>
+          <li class="shop"><a href="#">Test</a></li>
+          <li class="shop"><a href="#">Test</a></li>
+        </ul>
+      </div>
+      <div class="child_wrap">
+        <ul id="ul3">
+          Помощь
+          <li class="help"><a href="#">Test</a></li>
+          <li class="help"><a href="#">Test</a></li>
+          <li class="help"><a href="#">Test</a></li>
+          <li class="help"><a href="#">Test</a></li>
+          <li class="help"><a href="#">Test</a></li>
+          <li class="help"><a href="#">Test</a></li>
+          <li class="help"><a href="#">Test</a></li>
+          <li class="help"><a href="#">Test</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <script>
+      function myFunction(className) {
+        let x = document.querySelectorAll(className);
+        x.forEach((item) => {
+          // if (item.style.display === "block") {
+          //   item.style.display = "none";
+          // } else {
+          //   item.style.display = "block";
+          // }
+          item.classList.toggle("d-block");
+        });
+      }
+
+      document.getElementById("ul").addEventListener("click", () => {
+        myFunction(".brand");
+      });
+      document.getElementById("ul2").addEventListener("click", () => {
+        myFunction(".shop");
+      });
+      document.getElementById("ul3").addEventListener("click", () => {
+        myFunction(".help");
+      });
+    </script>
+  </body>
+</html>

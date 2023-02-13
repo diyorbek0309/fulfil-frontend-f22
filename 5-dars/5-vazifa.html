@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>5-dars vazifasi</title>
+  </head>
+  <body>
+    <h1>Homework_5</h1>
+    <br />
+    <br />
+    <form action="">
+      <label for="ism">Ismingiz:</label>
+      <input
+        required
+        minlength="3"
+        maxlength="24"
+        type="text"
+        name=""
+        id="ism"
+        placeholder="Ismingiz"
+      />
+      <br />
+      <br />
+      <label for="fm">Familiyangiz:</label>
+      <input
+        required
+        minlength="3"
+        maxlength="24"
+        type="text"
+        name=""
+        id="fm"
+        placeholder="Familiyangiz"
+      />
+      <br />
+      <br />
+      <label for="mail">Emailingiz:</label>
+      <input required type="text" name="" id="mail" placeholder="Emailingiz" />
+      <br />
+      <br />
+      <label for="number">Telefon raqamingiz:</label>
+      <input
+        required
+        pattern="[0-9]{2}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
+        type="text"
+        name=""
+        id="number"
+        placeholder="Telefon raqamingiz"
+      />
+      <br />
+      <br />
+      <label for="maosh">Qancha maosh so'raysiz:</label>
+      <input type="number" max="10000000" step="100000" placeholder="so'mda" />
+      <br />
+      <br />
+      <label for="holat">Ijtimoiy holatingiz:</label>
+      <select name="" id="holat">
+        <option value="">ishchi</option>
+        <option value="">talaba</option>
+        <option value="">o'quvchi</option>
+        <option value="">ishsiz</option>
+      </select>
+      <br />
+      <br />
+      <label for="Jinsingiz:">Jinsingiz</label>
+      <br />
+      <label for="erkak">Erkak:</label>
+      <input required type="radio" name="jinsi" id="erkak" />
+      <br />
+      <label for="Ayol">Ayol:</label>
+      <input required type="radio" name="jinsi" id="Ayol" />
+      <br />
+      <br />
+      <input type="date" name="" id="" />
+      <br />
+      <label for="file"></label>
+      <br />
+      <input type="file" name="" id="file" accept="image/*" />
+      <br />
+      <br />
+      <button type="submit">Jo'natish</button>
+      <br />
+      <br />
+      <button type="reset">Tozalash</button>
+    </form>
+  </body>
+</html>

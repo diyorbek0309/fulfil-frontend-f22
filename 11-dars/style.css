@@ -1,0 +1,86 @@
+html {
+  height: 2000px;
+}
+
+h1 {
+  /* display: inline; */
+  display: block;
+  width: 750px;
+  /* text-align: center; */
+  text-align: right;
+  /* text-align: left; */ /* left - default (boshlang'ich) qiymat */
+  text-decoration: underline;
+  /* text-transform: uppercase; */
+  text-transform: capitalize;
+}
+
+/* a { */
+/* display: inline; */
+/* display: inline-block;
+  width: 200px;
+  margin-top: 50px;
+  padding-left: 100px;
+  margin-right: 60px; */
+/* text-decoration: underline; */
+/* text-decoration: line-through; */
+/* text-decoration: none;
+  text-transform: uppercase;
+} */
+
+/* block, inline, inline-block, none */
+
+/* Block elementda hammasi ishlidi. */
+/* Inline elementga width, height, margin-top, margin-bottom, padding-top va padding-bottom tasir qilmidi. */
+/* Inline-block elementga hamma narsa tasir qiladi, lekin element inline elementga o'xshab, yonma-yon joylasha oladi va o'ziga kerakli kontentni egallidi. */
+
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: aqua;
+  /* display: none; */
+  /* opacity: 1; */
+  /* opacity: 0.3; */
+  /* 0 dan 1 gacha qiymat qabul qiladi. */
+}
+
+img {
+  float: left;
+  /* float: right; */
+}
+
+img[alt="Calculator"] {
+  float: right;
+}
+
+.clear {
+  /* clear: left; */
+  /* clear: right; */
+  clear: both;
+}
+
+.box2 {
+  width: 200px;
+  height: 200px;
+  background-color: aqua;
+}
+
+.box2:hover {
+  background-color: red;
+}
+
+.box2:active {
+  background-color: blue;
+}
+
+a {
+  color: green;
+}
+
+a:visited {
+  /* Kirib ko'rilgan a teglari uchun ishlidi */
+  color: red;
+}
+
+a:hover {
+  color: yellow;
+}

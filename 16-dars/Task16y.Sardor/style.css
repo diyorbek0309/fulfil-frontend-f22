@@ -1,0 +1,47 @@
+/* #align_centr {
+    width: 50%;
+    margin: auto;
+} */
+* {
+  width: 40%;
+  margin: auto;
+  margin-top: 10%;
+}
+.cube_loader {
+  display: inline-block;
+  position: relative;
+  width: 80px;
+  height: 80px;
+}
+
+.cube_loader div {
+  display: inline-block;
+  position: absolute;
+  left: 8px;
+  width: 16px;
+  background: rgb(34, 74, 134);
+  animation: cube_loader 1.2s ease infinite;
+}
+.cube_loader div:nth-child(1) {
+  left: 8px;
+  animation-delay: 0.2s;
+}
+.cube_loader div:nth-child(2) {
+  left: 32px;
+  animation-delay: 0.4s;
+}
+.cube_loader div:nth-child(3) {
+  left: 56px;
+  animation-delay: 0;
+}
+@keyframes cube_loader {
+  0% {
+    top: 10px;
+    height: 70px;
+  }
+  50%,
+  100% {
+    top: 30px;
+    height: 15px;
+  }
+}

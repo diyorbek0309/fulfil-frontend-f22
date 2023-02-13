@@ -1,0 +1,51 @@
+.box1 {
+  width: 200px;
+  height: 200px;
+  background-color: #f00;
+  position: relative;
+  /* animation: box-mover 4s infinite; */
+  /* animation-name: box-mover;
+  animation-duration: 5s; */
+  /* animation-delay: 3s; */
+  /* animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+  animation-timing-function: linear; */
+  animation: box-mover 5s infinite linear alternate-reverse 3s;
+}
+
+.box2 {
+  height: 200px;
+  width: 200px;
+  background-color: #0f0;
+  animation: box-mover 8s infinite ease-in-out;
+  position: relative;
+}
+
+@keyframes box-mover {
+  0% {
+    left: 0;
+    background-color: red;
+    width: 200px;
+  }
+  25% {
+    left: 125px;
+    background-color: blue;
+    width: 250px;
+  }
+  50% {
+    left: 250px;
+    background-color: yellow;
+    width: 300px;
+  }
+  75% {
+    left: 375px;
+    background-color: lightgreen;
+    width: 350px;
+  }
+  100% {
+    left: 500px;
+    background-color: green;
+    width: 400px;
+  }
+  /* from = 0%  to = 100% */
+}

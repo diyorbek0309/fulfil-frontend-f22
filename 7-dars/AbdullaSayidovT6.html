@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task6</title>
+    <style>
+      .tasktable {
+        background-color: rgb(188, 157, 196);
+        height: 205px;
+        display: inline-block;
+      }
+      h1 {
+        text-align: center;
+      }
+      .cl1 {
+        background-color: blue;
+      }
+      .cl2 {
+        background-color: rgb(236, 182, 157);
+      }
+      .cl3 {
+        background-color: rgb(235, 255, 123);
+      }
+      table {
+        border-spacing: 0;
+      }
+      .cal td {
+        padding-right: 10px;
+        padding-left: 5px;
+      }
+      button {
+        padding: 10px 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <table class="cal" border="2">
+      <tr>
+        <td widt="20px" colspan="3">0</td>
+        <td><button>C</button></td>
+        <td><button>CE</button></td>
+      </tr>
+      <tr>
+        <td><button>7</button></td>
+        <td><button>8</button></td>
+        <td><button>9</button></td>
+        <td><button>+/=</button></td>
+      </tr>
+      <tr>
+        <td><button>4</button></td>
+        <td><button>5</button></td>
+        <td><button>6</button></td>
+        <td><button>+</button></td>
+        <td><button>-</button></td>
+      </tr>
+      <tr>
+        <td><button>1</button></td>
+        <td><button>2</button></td>
+        <td><button>3</button></td>
+        <td><button>*</button></td>
+        <td><button>/</button></td>
+      </tr>
+      <tr>
+        <td><button>0</button></td>
+        <td><button>.</button></td>
+        <td colspan="2"></td>
+        <td><button>=</button></td>
+      </tr>
+    </table>
+
+    <hr />
+    <div class="tasktable">
+      <h1>Schedule</h1>
+      <table border="2">
+        <tr>
+          <th>Day</th>
+          <th>Mon</th>
+          <th>Tue</th>
+          <th>Wed</th>
+          <th>Thu</th>
+          <th>Fri</th>
+        </tr>
+        <tr>
+          <td>9-9:30</td>
+          <td class="cl1">Class 1</td>
+          <td></td>
+          <td></td>
+          <td class="cl1">Class 1</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>10-10:30</td>
+          <td class="cl2">Class 2</td>
+          <td class="cl1">Class 1</td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>11-11:30</td>
+          <td></td>
+          <td class="cl3">Class 3</td>
+          <td class="cl2">Class 2</td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>11:30-12:00</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td class="cl3">Class 3</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

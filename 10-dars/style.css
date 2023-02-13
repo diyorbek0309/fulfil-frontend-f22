@@ -1,0 +1,38 @@
+.box1 {
+  /* width: 400px; */
+  /* width - kenglik */
+  /* min-width: 400px; */
+  /* width >= 400px */
+  max-width: 400px;
+  /* 0 <= width <= 400 */
+  height: 400px;
+  /* height - balandlik */
+  /* max-height: 400px; */
+  /* 0 dan 400 gacha; */
+  /* min-height: 400px; */
+  /* min-height: 400px; 400 dan katta; Element kamida 400px balandlikka ega bo'ladi.  */
+  background-color: aqua;
+  /* padding: 50px; */
+  margin: 100px;
+  /* padding-top: 10px;
+  padding-right: 20px;
+  padding-bottom: 40px;
+  padding-left: 80px; */
+  /* padding: 100px 50px;  */
+  /* 100px - tepa va pastdan, 50px - chap va o'ngdan */
+  padding: 10px 20px 40px 80px;
+  border-bottom: 10px dashed red;
+  border-left: 20px dotted blue;
+  border-top: 30px double green;
+  border-right: 40px solid yellow;
+  /* tepadan 10px, o'ngdan 20px, pastdan 40px chapdan 80px */
+  /* border-width: 10px;
+  border-style: solid;
+  border-color: red; */
+  /* border: 20px solid red; */
+  /* 1. border-width, 2-border-style, 3-border-color */
+}
+
+/* .image img {
+  max-width: 400px;
+} */

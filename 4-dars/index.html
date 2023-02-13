@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" style="height: 2000px">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .text_red {
+        color: red;
+      }
+      .text_italic {
+        font-style: italic;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <h1 id="heading1" style="text-align: center" class="text_italic">
+        Hello world! 1
+      </h1>
+      <!-- ID - bitta element faqat bitta ID ga ega bo'lishi mumkin. Bitta ID shu html hujjatda faqat bir marta ishlatilishi mumkin. -->
+
+      <h1 class="text_red text_italic">Hello world! 2</h1>
+      <!-- Class - bitta elementda bir nechta class bo'lishi mumkin va bitta class html hujjatda bir necha marta ishlatilishi mumkin! -->
+      <p>
+        Lorem, <span class="text_red">ipsum dolor</span> sit amet consectetur
+        <span style="font-weight: bold">adipisicing elit.</span>
+      </p>
+      <a href="https://www.google.com"
+        >Go<span style="color: red">o</span>gle</a
+      >
+      <a href="#bottom" class="text_italic">Bottom Text</a>
+    </div>
+    <!-- Block elementlar boshqa block elementlar va inline elementlarni o'rab turishi mumkin, lekin inline element block elementlarni o'rab turishi mumkinmas. -->
+    <div id="bottom" style="margin-top: 500px">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, consequuntur
+      totam impedit dignissimos corporis cumque sapiente. Dolorum minima rerum
+      veniam fugiat eum suscipit officiis sunt, eaque voluptatibus ipsam ducimus
+      nesciunt iusto maiores, ratione, asperiores molestiae repellat deserunt
+      sit explicabo. Iusto!
+    </div>
+  </body>
+</html>

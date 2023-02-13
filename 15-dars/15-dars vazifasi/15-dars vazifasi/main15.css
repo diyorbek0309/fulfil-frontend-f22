@@ -1,0 +1,44 @@
+.box1 {
+  width: 1100px;
+  height: 450px;
+  background-color: #00f;
+  margin-top: 60px;
+  margin-left: 40px;
+}
+
+div p {
+  padding-top: 40px;
+  padding-left: 45px;
+}
+
+.box2,
+.box3,
+.box4 {
+  width: 250px;
+  height: 150px;
+  background-color: rgb(88, 88, 216);
+  position: absolute;
+  top: 250px;
+  transition: all 2s;
+  transition-timing-function: linear;
+}
+
+.box2:hover,
+.box3:hover,
+.box4:hover {
+  width: 300px;
+  height: 180px;
+  background-color: #fff;
+}
+
+.box2 {
+  left: 90px;
+}
+
+.box3 {
+  left: 340.4px;
+}
+
+.box4 {
+  left: 590px;
+}

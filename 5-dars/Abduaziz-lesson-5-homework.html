@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Elements</title>
+  </head>
+  <body>
+    <form action="#">
+      <label for="first-name">Ism</label>
+      <input
+        type="text"
+        id="first-name"
+        minlength="3"
+        maxlength="24"
+        placeholder="Ismingizni kiriting"
+        required
+      />
+      <br />
+      <label for="last-name">Familiya</label>
+      <input
+        type="text"
+        id="last-name"
+        minlength="3"
+        maxlength="24"
+        placeholder="Familiyangizni kiriting"
+        required
+      />
+      <br />
+      <label for="e-mail">e-mail</label>
+      <input
+        type="email"
+        id="e-mail"
+        placeholder="Emailingizni kiriting"
+        required
+      />
+      <br />
+      <label for="number">Telefon raqami</label>
+      <input
+        type="tel"
+        id="number"
+        placeholder="Telefoningizni kiriting"
+        pattern="[0-9]{2}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
+        required
+      />
+      <br />
+      <label for="social">Ijtimoiy holatingizni tanlang</label>
+      <select name="social" id="social">
+        Ijtimoiy holat
+        <option value="student">Talaba</option>
+        <option value="pupil">O'quvchi</option>
+        <option value="worker">Ishchi</option>
+        <option value="free">Ishsiz</option>
+        <option value="housewife">Uy bekasi</option>
+      </select>
+      <br />
+      <p>Jinsingiz</p>
+      <label for="female" name="sex">Ayol</label>
+      <input type="radio" name="sex" id="female" />
+      <label for="male" name="sex">Erkak</label>
+      <input type="radio" name="sex" id="male" />
+      <br />
+      <label for="my-image">Rasmni tanlang</label>
+      <input type="file" id="my-image" name="my-image" value="Rasmni tanlang" />
+      <br />
+      <br />
+      <button type="submit">Jonatish</button>
+      <button type="reset">Tozalash</button>
+    </form>
+  </body>
+</html>

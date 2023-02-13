@@ -1,0 +1,24 @@
+.descendant p {
+  background-color: yellow;
+}
+
+.child > p {
+  background-color: red;
+}
+
+.adjacent div + p {
+  background-color: blue;
+}
+
+.general div ~ p {
+  background-color: rgb(253, 101, 0);
+}
+
+.combined_selectors li.selected {
+  background-color: red;
+}
+
+.combined_selectors
+  [placeholder="Combined Selector orqali background color bering!"] {
+  background-color: chocolate;
+}

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>task17Abdullajon</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      .container {
+        background-color: #222;
+        border: #000 solid 5px;
+        display: flex;
+        flex-flow: row wrap;
+        width: 500px;
+      }
+
+      .item {
+        width: 25%;
+        padding: 20px 20px;
+        background-color: darkslategrey;
+        border: #000 solid 0.1px;
+        text-align: center;
+        color: aliceblue;
+      }
+
+      .top {
+        width: 100%;
+        background-color: #222;
+        text-align: right;
+      }
+
+      .button-ac {
+        background-color: maroon;
+        width: 50%;
+      }
+
+      .button-zero {
+        width: 50%;
+      }
+
+      .button-ra {
+        background-color: lightslategrey;
+        transform: scaleY(2);
+        width: 122px;
+      }
+      .test {
+        transform: translateY(50%);
+      }
+      .for-hover:hover {
+        background-color: rgb(52, 46, 23);
+        cursor: pointer;
+        transform: scale(1.09);
+        transition: all 0.5s;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <input type="number" class="item top" value="0" />
+      <button class="item button-ac for-hover">AC</button>
+      <button class="item for-hover">/</button>
+      <button class="item for-hover">x</button>
+      <button class="item for-hover">7</button>
+      <button class="item for-hover">8</button>
+      <button class="item for-hover">9</button>
+      <button class="item for-hover">-</button>
+      <button class="item for-hover">4</button>
+      <button class="item for-hover">5</button>
+      <button class="item for-hover">6</button>
+      <button class="item for-hover">+</button>
+      <button class="item for-hover">1</button>
+      <button class="item for-hover">2</button>
+      <button class="item for-hover">3</button>
+      <div class="test"><button class="item button-ra">=</button></div>
+      <button class="item button-zero for-hover">0</button>
+      <button class="item for-hover">.</button>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,23 @@
+.descendant p {
+  color: yellow;
+}
+
+.wrap > p {
+  color: red;
+}
+
+.adjacent div + p {
+  color: blue;
+}
+
+.general div ~ p {
+  color: darkorange;
+}
+
+.combined li.active {
+  color: red;
+}
+
+.combined input[type="text"] {
+  background-color: chartreuse;
+}

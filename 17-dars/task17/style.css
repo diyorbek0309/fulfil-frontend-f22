@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 50px auto auto 500px;
+}
+.main_button {
+  width: 250px;
+  border: 1px solid hsla(350, 100%, 50%, 0.719);
+  height: 317px;
+  display: flex;
+  background-color: rgb(22, 20, 20);
+  text-align: center;
+}
+.number {
+  width: 190px;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  display: flex;
+  /* border: 1px solid blue; */
+}
+
+.button {
+  text-align: center;
+  width: 60px;
+  height: 60px;
+  font-size: 25px;
+  background-color: gray;
+}
+.result {
+  width: 250px;
+  height: 30px;
+  font-size: 30px;
+  background-color: black;
+  color: azure;
+  display: flex;
+  justify-content: right;
+}
+.grow {
+  text-align: center;
+  display: flex;
+  height: 312px;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.resetbtn {
+  flex-basis: 120px;
+  background-color: brown;
+}
+.nol_raqami {
+  flex-basis: 122px;
+}
+.teng_amali {
+  flex-basis: 120px;
+}

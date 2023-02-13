@@ -1,0 +1,73 @@
+body {
+  font-family: sans-serif;
+}
+
+.flex-container {
+  display: flex;
+  padding: 80px 5px 5px 5px;
+  background-color: #111212;
+  border-radius: 10px;
+  height: 500px;
+  width: 280px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.flex-item {
+  padding: 10px 29px;
+  background-color: #3b362e;
+  font-weight: bold;
+  margin: 1px;
+  border-radius: 5px;
+}
+
+.flex-item.first {
+  flex-grow: 2;
+  background-color: rgb(137, 22, 22);
+}
+
+.flex-item.fourth {
+  background-color: rgb(48, 37, 37);
+}
+
+.flex-item.fifth {
+  background-color: rgb(48, 37, 37);
+}
+
+.flex-item.sixth {
+  background-color: rgb(48, 37, 37);
+}
+
+.flex-item.eith {
+  background-color: rgb(48, 37, 37);
+}
+
+.flex-item.ninth {
+  background-color: rgb(48, 37, 37);
+}
+
+.flex-item.tenth {
+  background-color: rgb(48, 37, 37);
+}
+
+.flex-item.twelf {
+  background-color: rgb(48, 37, 37);
+}
+
+.flex-item.thirteen {
+  background-color: rgb(48, 37, 37);
+}
+
+.flex-item.fourteen {
+  flex-grow: 2;
+  background-color: rgb(48, 37, 37);
+}
+.flex-item.fifteen {
+  flex-grow: 2;
+}
+
+.flex-item.seventeen {
+  flex-grow: 1;
+  background-color: rgb(29, 29, 55);
+}

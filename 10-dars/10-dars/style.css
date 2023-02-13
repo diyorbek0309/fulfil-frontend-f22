@@ -1,0 +1,25 @@
+.box1 {
+  width: 200px;
+  height: 200px;
+  background-color: greenyellow;
+  padding: 50px;
+  border: 4px solid black;
+  margin: 100px;
+  border-bottom: 10px dashed red;
+  border-left: 20px dotted yellow;
+  border-top: 30px double green;
+  border-right: 40px solid yellow;
+}
+
+/* background-color: greenyellow
+padding -left:50px; */
+/*padding-top: 100px;
+padding-right: 50px;
+padding-bottom:100px;
+padding: 100px 50px
+border: 4px solid black;*/
+/* padding: 20px 30px 20px 30px;
+border-width: 10px;
+border-style: solid;
+<background-color>: aqua;
+/*1border-width, 2-border style, 3. border color*/

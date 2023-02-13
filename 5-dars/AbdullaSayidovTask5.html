@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+  </head>
+  <body>
+    <form action="/action.php">
+      <label for="firstName">Ismingizni kiriting:</label>
+      <input
+        type="text"
+        minlength="3"
+        maxlength="24"
+        required
+        id="firstName"
+        placeholder="Ismingiz"
+      />
+      <br />
+      <br />
+      <label for="lastName">Familyangizni kiriting:</label>
+      <input
+        type="text"
+        minlength="3"
+        maxlength="24"
+        required
+        id="lastName"
+        placeholder="Familyangiz"
+      />
+      <br /><br />
+      <label for="email">Emailingizni kiriting:</label>
+      <input type="email" id="email" required placeholder="Emailingiz" />
+      <br /><br />
+      <label for="tel">Telefon raqamingizni kiriting:</label>
+      <input
+        type="tel"
+        id="tel"
+        required
+        placeholder="Telefon raqamingiz"
+        pattern="[0-9]{2}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
+      />
+      <br /><br />
+      <label for="socstat">Ijtimoiy xolatingizni tanlang:</label>
+      <select name="socstat" id="socstat">
+        <option value="0"></option>
+        <option value="1">Ishchi</option>
+        <option value="2">Talaba</option>
+        <option value="3">O'quvchi</option>
+        <option value="4">Ishsiz</option>
+      </select>
+      <p>Jinsingizni tanlang:</p>
+      <label for="male">Erkak</label>
+      <input type="radio" name="gender" id="male" />
+      <label for="female">Ayol</label>
+      <input type="radio" name="gender" id="female" /> <br />
+      <br />
+      <label for="avatar">Rasmingizni yuklang:</label>
+      <input type="file" id="avatar" accept="image/*" /> <br />
+      <br />
+      <button type="reset">Tozalash</button>
+      <button type="submit">Jo'natish</button>
+    </form>
+  </body>
+</html>
