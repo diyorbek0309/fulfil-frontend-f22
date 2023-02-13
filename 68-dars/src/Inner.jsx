@@ -1,7 +1,14 @@
-import React from "react";
+import { useSelector } from "react-redux";
 
 const Inner = () => {
-  return <div>InnerComponent</div>;
+  const isLight = useSelector((state) => state.modeReducer.isLight);
+
+  const pageStyle = {
+    height: 620,
+    backgroundColor: isLight ? "aquamarine" : "#013536",
+  };
+
+  return <div style={pageStyle}>InnerComponent</div>;
 };
 
 export default Inner;
